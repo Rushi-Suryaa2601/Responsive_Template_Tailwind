@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        playFair:"'Playfair Diaply',serif",
+        lato:"'Lato',sand-serif",
+      }
+    },
   },
   plugins: [],
 }
